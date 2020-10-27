@@ -1,0 +1,65 @@
+/* BASE STYLES */
+body {
+  margin-top: 25px; }
+
+table {
+  border-collapse: collapse; }
+  table td, table th {
+    border: 1px solid black;
+    padding: 3px; }
+
+blockquote {
+  border-left: 3px solid black;
+  padding-left: 2px; }
+
+#content {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.title {
+  display: block;
+  position: relative;
+  font-size: 3rem;
+  font-family: "Kufam", cursive;
+  margin-left: 5px;
+  font-weight: bold;
+  color: #3E003E; }
+
+.text {
+  display: inline-block; }
+
+/* LAYOUTS */
+#preview {
+  display: inline-block;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: calc(50 * 15px);
+  width: calc(100 * 7.17px);
+  resize: horizontal;
+  border: none;
+  border: 1px solid black;
+  padding: 40px 40px 20px 40px; }
+
+#editor {
+  border: none;
+  border: 1px solid black;
+  resize: horizontal;
+  overflow-x: hidden;
+  padding: 40px 40px 20px 40px;
+  margin-right: 10px; }
+
+.scrollbar::-webkit-scrollbar-track {
+  background-color: white; }
+
+.scrollbar::-webkit-scrollbar {
+  width: 12px;
+  background-color: white; }
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(#87067A, #3E003E); }
+
+/* MODULES */
+
+/*# sourceMappingURL=app.css.map */
