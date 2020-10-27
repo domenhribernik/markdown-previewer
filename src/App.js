@@ -65,11 +65,11 @@ class App extends Component{
       <div id="content">
         <div class="text">
           <div class="title">Editor</div>
-          <textarea className="scrollbar" id="editor" rows="50" cols="100" value={this.state.preview} onChange={this.handleChange}/>
+          <textarea id="editor" rows="50" cols="100" value={this.state.preview} onChange={this.handleChange}/>
         </div>
         <div class="text">
           <div class="title">Previewer</div>
-          <div className="scrollbar" id="preview" dangerouslySetInnerHTML={{__html: marked(this.state.preview)}}>
+          <div id="preview" dangerouslySetInnerHTML={{__html: marked(this.state.preview)}}>
         </div>
         </div>
       </div>
