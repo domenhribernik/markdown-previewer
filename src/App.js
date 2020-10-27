@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import './css/app.css'
+import './markedOptions.js'
 const marked = require('marked')
 
 class App extends Component{
