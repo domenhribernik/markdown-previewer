@@ -42,7 +42,8 @@ blockquote {
   border: none;
   border: 1px solid black;
   padding: 40px 40px 20px 40px;
-  min-width: 360px; }
+  min-width: 360px;
+  max-width: 700px; }
 
 #editor {
   border: none;
@@ -51,7 +52,8 @@ blockquote {
   overflow-x: hidden;
   padding: 40px 40px 20px 40px;
   margin-right: 10px;
-  min-width: 360px; }
+  min-width: 360px;
+  max-width: 700px; }
 
 ::-webkit-scrollbar-track {
   background-color: white;
